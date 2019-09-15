@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*:active, *:focus, *:hover, *:visited {
+  outline: none !important;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  word-break: normal;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1.2;
+  color: #0065c3;
+}
+
+ul, nav {
+  list-style: none;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.section__beginner-pixi {
+  height: 100%;
+}
+
+.beginner__canvas-one {
+  width: 800px;
+  height: 600px;
+  -ms-touch-action: none;
+      touch-action: none;
+  cursor: inherit;
+}
+/*# sourceMappingURL=main.css.map */
